@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehta General Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <!-- loading page -->
+     <div class="preloader">
+        <img src="LOGO.png" alt="Loading..." />
+        <div class="loading-container">
+            <div class="spinner"></div>
+        </div>
+    </div> 
+
+    <!-- nav bar -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/e-commerce/LOGO.png" alt="" width="225px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a> </li>
+                        <li> <a href="">Product</a> </li>
+                        <li> <a href="">About</a> </li>
+                        <li> <a href="">Contact</a> </li>
+                        <li><a href="amount.html">payment</a></li>
+                        <li><a href="">Account</a> </li>
+                    </ul>
+                </nav>
+              <a href=""><img src="shopping-bag.png" alt="" width="30px" height="30px"></a>  
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Shopping In <BR>A new style</BR></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat modi maxime reiciendis! Odit
+                        officia totam molestiae provident veritatis, quia qui laudantium vero magnam accusantium tempore
+                        quam. A assumenda facilis nemo.
+                    </p>
+                    <a href="" class="btn">Explor Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="mini_shophouse_icon_colored_elegant_simple_sketch_6921296-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+
+       <!-- popup -->
+       <!-- Centered Popup -->
+<div class="centered-popup" id="welcomePopup">
+    <div class="popup-content">
+        <h2>Welcome to Mehta General Store! </h2>
+        <img src="LOGO.png" width="220px" alt="">
+        <p>We're excited to have you here.</p>
+    </div>
+</div>
+
+
+        <!-- featured categories -->
+
+<div class="categories">
+    <div class="row">
+        <div class="col-3"><img src="" alt=""></div>
+        <div class="col-3"><img src="" alt=""></div>
+        <div class="col-3"><img src="" alt=""></div>
+    </div>
+</div>
+
+<footer>
+    <div class="container footer_container">
+        <div class="footer_1">
+            <a href="mainpage.html" class="footer_logo">
+                <h4><img src="./images/alvioni__fashion_brand_art_design_logo__1_-removebg-preview.png" alt=""></h4>
+            </a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem perferendis aut culpa vitae, atque
+                impedit praesentium, assumenda optio nam magni id.</p>
+        </div>
+        <div class="footer_2">
+            <h4>perlinks</h4>
+            <ul class="permalinks">
+                <li><a href="mainpage.html" class="underline-hover">Home</a></li>
+                <li><a href="skill.html" class="underline-hover">Skill</a></li>
+                <li><a href="about.html" class="underline-hover">About</a></li>
+                <li><a href="contract.html" class="underline-hover">Contact</a></li>
+                <li><a href="invoice.html" class="underline-hover">Calution</a></li>
+            </ul>
+        </div>
+        <div class="footer_3">
+            <h4>Primary</h4>
+            <ul class="privacy">
+                <li><a href="#" class="underline-hover">Privacy Policy</a></li>
+                <li><a href="#" class="underline-hover">Term & Conditions</a></li>
+                <li><a href="#" class="underline-hover">Refund Policy</a></li>
+
+            </ul>
+        </div>
+        <div class="footer_4">
+            <h4>Contract Us</h4>
+            <div>
+                <p>+91 9548571689</p>
+                <p></p>ankitsingmehta12345@gmail.com</p>
+            </div>
+        </div>
+        <ul class="footer_socials">
+            <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+            <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+            <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+            <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+
+        </ul>
+    </div>
+    <div class="footer_copyright">
+        <hr color="red">
+        <small>Copyright &copy , ANKIT</small>
+    </div>
+</footer>
+
+
+
+</body>
+
+
+    <script>
+        // JavaScript to hide the preloader after 2 seconds
+        setTimeout(function () {
+            document.querySelector('.preloader').style.display = 'none';
+            document.querySelector('.main-content').style.display = 'block';
+        }, 600);
+    </script>
+ <script>
+    // JavaScript to show the centered popup for 3 seconds
+    setTimeout(function () {
+        const welcomePopup = document.getElementById('welcomePopup');
+        welcomePopup.style.display = 'block';
+        setTimeout(function () {
+            welcomePopup.style.display = 'none';
+        },1800); // 3 seconds
+    }, 600);
+    
+</script>
+
+
+
+
+</html>

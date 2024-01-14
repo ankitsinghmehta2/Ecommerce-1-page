@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .options-container {
+            text-align: center;
+        }
+
+        .option {
+            display: inline-block;
+            margin: 10px;
+            padding: 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: 2px solid #2980b9;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .option:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="options-container">
+        <div class="option" onclick="depositMoney()">Deposit Money</div>
+        <div class="option" onclick="checkVillageMoney()">Check Village Money</div>
+        <div class="option" onclick="participate()">Participate</div>
+    </div>
+
+    <script>
+        function depositMoney() {
+            // Redirect to the payment page
+            window.location.href = 'amount.html'; // Replace 'payment.html' with the actual URL of your payment page.
+        }
+
+        function checkVillageMoney() {
+            // Add your check village money functionality here
+        }
+
+        function participate() {
+            // Add your participate functionality here
+        }
+    </script>
+</body>
+</html>
